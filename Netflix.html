@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/b77751c7-0e02-4941-af39-30514ff6b3e2/95e96821-bdab-42c9-a5c0-1942ab5d1f61/CA-en-20211026-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        }
+
+        .container{
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            height: 650px;
+            width: 450px;
+            padding: 70px;
+            background-color: rgba(0,0,0,0.7);
+            color:white;
+        }
+
+        button{
+            background-color: rgb(229,9,20);
+            height: 50px;
+            width: 300px;
+            color: aliceblue;
+            border-style: none;
+            border-radius: 3px;
+        }
+
+        .netflix{
+         background-color: rgb(51,51,51); 
+         height: 50px; 
+         width: 300px; 
+         border-style: none;
+         border-radius: 3px;
+        }
+
+        p{
+            color: rgb(99,115,115);
+        }
+        label{
+            color: rgb(99,115,115);
+        }
+
+        #S{
+            color: white;
+        }
+        #L{
+            color: blue;
+        }
+        #N{
+            color:rgb(99,115,115);
+        }
+
+        i{
+            color: rgb(59,87,157);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="box">
+            <h1>Sign in</h1>
+            <input type="text" placeholder="Email or phone number" class="netflix">
+            <br>
+            <br>
+            <input type="password" placeholder="Password" class="netflix">
+            <br>
+            <br>
+            <br>
+            <br>
+            <button>Sign in</button>
+            <br>
+            <input type="checkbox">
+            <label>Remeber me &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" id="N">Need help?</a></label>
+            <br>
+            <br>
+            <br>
+            <p>
+                <i class="fab fa-facebook-square"></i> Login with Facebook
+                <br>
+                <br>
+                New to Netflix?
+                <a href="" id="S">Sign up now</a>
+                <br>
+                <br>
+                This Page is protected by Google reCAPTCHA to
+                <br>
+                Ensure your not a robot.
+                <a href="" id="L">Learn more.</a>
+
+            </p>
+        </div>
+        </div>
+
+</body>
+
+</html>
